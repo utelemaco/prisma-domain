@@ -1,6 +1,6 @@
 package org.prisma.domain.projectInstance
 
-class CaseInstance {
+class ProcessInstance {
 
 	Long id
 	String code
