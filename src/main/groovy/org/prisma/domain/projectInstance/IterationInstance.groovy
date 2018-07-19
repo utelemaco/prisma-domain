@@ -6,6 +6,7 @@ class IterationInstance {
 	String code
 	String name
 	String description
-	
+
+	List<TaskInstance> taskInstances = []
     
 }

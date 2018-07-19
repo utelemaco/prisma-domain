@@ -6,6 +6,7 @@ class ProcessInstance {
 	String code
 	String name
 	String description
-	
+
+	List<TaskInstance> taskInstances = []
     
 }
