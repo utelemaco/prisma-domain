@@ -1,4 +1,4 @@
-package org.prisma.domain.enumeration;
+package org.prisma.kip.domain.enumeration;
 
 /**
  * The CaseInstanceStatus enumeration.

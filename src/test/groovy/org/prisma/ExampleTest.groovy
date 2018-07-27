@@ -4,6 +4,8 @@
 
 package org.prisma
 
+import org.prisma.kip.Example
+
 import groovy.util.GroovyTestCase
 
 /**

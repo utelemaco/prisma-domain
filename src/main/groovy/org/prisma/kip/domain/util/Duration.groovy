@@ -1,4 +1,4 @@
-package org.prisma.domain.util
+package org.prisma.kip.domain.util
 
 class Duration {
 

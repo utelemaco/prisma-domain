@@ -1,4 +1,4 @@
-package org.prisma.domain.processDefinition
+package org.prisma.kip.domain.processDefinition
 
 class ProcessDefinition {
 

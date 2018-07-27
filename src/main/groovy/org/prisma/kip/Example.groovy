@@ -2,7 +2,7 @@
 // Generated from archetype; please customize.
 //
 
-package org.prisma
+package org.prisma.kip
 
 /**
  * Example Groovy class.
