@@ -1,4 +1,4 @@
-# prisma-software-project-metamodel
+# prisma-kip-metamodel
 The project contains a reference implementation of a metamodel that represents a Software Project
 
 
