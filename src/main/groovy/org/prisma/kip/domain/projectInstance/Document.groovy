@@ -1,5 +1,7 @@
 package org.prisma.kip.domain.projectInstance
 
+import java.util.List
+
 import org.prisma.kip.domain.processDefinition.Artifact
 
 class Document {
@@ -10,5 +12,7 @@ class Document {
 	String description
 	
 	List<Artifact> implementedArtifacts = []
+	
+	List<DocumentUsage> documentsUsage = []
 
 }

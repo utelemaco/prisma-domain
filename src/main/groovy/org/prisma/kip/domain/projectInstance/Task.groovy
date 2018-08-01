@@ -17,8 +17,11 @@ class Task {
 	
 	Project project
 	Actor performer
-	DocumentUsage documentoUsage 
+	
+	List<DocumentUsage> documentsUsage = []
 	
 	List<Activity> implementedActivities = []
+	
+	
     
 }
