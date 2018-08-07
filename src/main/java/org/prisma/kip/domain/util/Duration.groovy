@@ -1,5 +1,8 @@
 package org.prisma.kip.domain.util
 
+import groovy.transform.ToString
+
+@ToString
 class Duration {
 	
 	public Duration() {
