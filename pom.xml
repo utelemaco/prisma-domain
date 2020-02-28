@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.prisma</groupId>
-    <artifactId>kip-domain</artifactId>
+    <artifactId>prisma-kip-domain</artifactId>
     <name>Prisma Domain Project</name>
     <version>1.0-SNAPSHOT</version>
 
