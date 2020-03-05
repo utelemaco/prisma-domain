@@ -1,5 +1,10 @@
 package org.prisma.kip.domain.processDefinition;
 
+import org.prisma.kip.domain.projectInstance.Document;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Artifact {
 
 	private Long id;
@@ -9,6 +14,8 @@ public class Artifact {
 	private String name;
 	
 	private String description;
+
+	private List<Document> instancedDocuments = new ArrayList<>();
 
 	public Long getId() {
 		return id;
@@ -41,5 +48,12 @@ public class Artifact {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+
+	public List<Document> getInstancedDocuments() {
+		return instancedDocuments;
+	}
+
+	public void setInstancedDocuments(List<Document> instancedDocuments) {
+		this.instancedDocuments = instancedDocuments;
+	}
 }
